@@ -9,11 +9,13 @@ Após clonar ou fazer download do repositorio, entrar na pasta do projeto e exec
 
 npm install
 
-npm install grunt
+npm install bower
 
-npm install grunt-cli
+bower install
 
-bower install 
+bower install grunt
+
+bower install grunt-cli
 
 Utilize `grunt` para gerar o build e `grunt serve` para preview.
 

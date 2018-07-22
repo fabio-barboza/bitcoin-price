@@ -50,7 +50,7 @@
           <entry key="js" value="1951" />
           <entry key="json" value="64" />
           <entry key="md" value="799" />
-          <entry key="txt" value="27" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -58,7 +58,7 @@
           <entry key="HTML" value="1500" />
           <entry key="JSON" value="64" />
           <entry key="JavaScript" value="1951" />
-          <entry key="PLAIN_TEXT" value="826" />
+          <entry key="PLAIN_TEXT" value="843" />
         </counts>
       </usages-collector>
     </session>
@@ -136,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -402,7 +402,7 @@
       <updated>1532268762421</updated>
       <workItem from="1532268766125" duration="92000" />
       <workItem from="1532268889389" duration="8633000" />
-      <workItem from="1532277852132" duration="21482000" />
+      <workItem from="1532277852132" duration="21857000" />
     </task>
     <task id="LOCAL-00001" summary="Visualização das informções">
       <created>1532289525108</created>
@@ -418,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532303090976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajustes no readme">
+      <created>1532303226585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532303226585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30207000" />
+    <option name="totallyTimeSpent" value="30582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -480,7 +487,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Visualização das informções" />
-    <option name="LAST_COMMIT_MESSAGE" value="Visualização das informções" />
+    <MESSAGE value="Ajustes no readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no readme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/about.html" />
@@ -556,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>

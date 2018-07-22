@@ -6,7 +6,17 @@ angular.module('bitcoinPriceApp').factory('bitcoinFactory', function($http, SERV
     return $http.get(SERVER_URL + '/summary');
   };
 
+  let _getSales = function() {
+    return $http.get(SERVER_URL + '/sales');
+  };
+
+  let _getPurchases = function() {
+    return $http.get(SERVER_URL + '/purchases');
+  };
+
   return {
-    getBitcoinSummary: _getBitcoinSummary
+    getBitcoinSummary: _getBitcoinSummary,
+    getSales: _getSales,
+    getPurchases: _getPurchases
   };
 });

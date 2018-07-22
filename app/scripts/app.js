@@ -18,7 +18,8 @@ angular
     'ngTouch',
     'ngMaterial',
     'md.data.table',
-    'ui.router'
+    'ui.router',
+    'chart.js'
   ])
   .config(function ($urlRouterProvider, $stateProvider) {
 
@@ -30,6 +31,12 @@ angular
         resolve: {
           summary: function(bitcoinFactory) {
             return bitcoinFactory.getBitcoinSummary();
+          },
+          purchases: function(bitcoinFactory) {
+            return bitcoinFactory.getPurchases();
+          },
+          sales: function(bitcoinFactory) {
+            return bitcoinFactory.getSales();
           }
         }
       });

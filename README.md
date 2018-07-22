@@ -1,12 +1,16 @@
 # bitcoin-price
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+Aplicação cliente contruída com AngularJS que serve como Frontend para a aplicação bitcoin-price-backend
 
-## Build & development
+## Build & deploy
 
-Run `grunt` for building and `grunt serve` for preview.
+Utilize `grunt` para gerar o build e `grunt serve` para preview.
 
-## Testing
+## Observações
 
-Running `grunt test` will run the unit tests with karma.
+Para ambiente de desenvolvimento, foi configurado um proxy para contornar o problema de CORS, mas em ambiente de 
+produção, deverá ser cnfigurado um proxy no servidor ou configurar as aplicações para rodarem no mesmo contexto.
+
+## Testar
+
+Utiliza o comando `grunt test` para rodar os testes com o karma.

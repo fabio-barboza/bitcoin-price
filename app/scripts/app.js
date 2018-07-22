@@ -16,23 +16,25 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ngMaterial'
+    'ngMaterial',
+    'md.data.table',
+    'ui.router'
   ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
+  .config(function ($urlRouterProvider, $stateProvider) {
+
+    $stateProvider
+      .state('main', {
+        url: '/',
         controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .otherwise({
-        redirectTo: '/'
+        templateUrl: 'views/main.html',
+        resolve: {
+          summary: function(bitcoinFactory) {
+            return bitcoinFactory.getBitcoinSummary();
+          }
+        }
       });
+
+    $urlRouterProvider.otherwise('/');
   }).constant(
     'SERVER_URL', '/api'
 );

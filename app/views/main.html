@@ -1,2 +1,36 @@
-<md-button class="md-raised md-primary">Primary</md-button>
-{{data}}
+<top5 quotations="summary.top5Sales" description="As 5 maiores vendas"></top5>
+
+<top5 quotations="summary.top5Purchases" description="As 5 maiores compras"></top5>
+
+<div>
+  <md-toolbar class="md-table-toolbar md-primary">
+    <div class="md-toolbar-tools">
+      <span>Resumo</span>
+    </div>
+  </md-toolbar>
+  <md-table-container>
+    <table md-table>
+      <thead md-head>
+      <tr md-row>
+        <th md-column md-numeric>Vl. Medio Compra</th>
+        <th md-column md-numeric>Vl. Medio de Venda</th>
+        <th md-column md-numeric>Mediana Compra</th>
+        <th md-column md-numeric>Mediana Venda</th>
+        <th md-column md-numeric>Desvio Padrão Compra</th>
+        <th md-column md-numeric>Desvio Padrão Venda</th>
+      </tr>
+      </thead>
+      <tbody md-body>
+      <tr md-row>
+        <td md-cell>{{summary.averagePurchases | number: 2}}</td>
+        <td md-cell>{{summary.averageSales | number: 2}}</td>
+        <td md-cell>{{summary.medianPurchases| number: 2}}</td>
+        <td md-cell>{{summary.medianSales | number: 2}}</td>
+        <td md-cell>{{summary.standardDeviationPurchases | number: 2}}</td>
+        <td md-cell>{{summary.standardDeviationSales | number: 2}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </md-table-container>
+</div>
+

@@ -13,7 +13,7 @@ npm install grunt
 
 npm install grunt-cli
 
-bower install
+bower install 
 
 Utilize `grunt` para gerar o build e `grunt serve` para preview.
 

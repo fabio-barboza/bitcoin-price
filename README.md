@@ -2,6 +2,13 @@
 
 Aplicação cliente contruída com AngularJS que serve como Frontend para a aplicação bitcoin-price-backend
 
+## Live Sample
+
+A aplicação está rodando em uma instância do AWS EC2 no seguinte endereço:
+
+http://ec2-13-59-22-163.us-east-2.compute.amazonaws.com
+
+
 ## Build & deploy
 
 É necessário estar com o NodeJS / nmm devidamente instalado e configurado.
@@ -9,7 +16,11 @@ Após clonar ou fazer download do repositorio, entrar na pasta do projeto e exec
 
 npm install
 
-npm install bower
+sudo npm install bower -g
+
+sudo npm install grunt -g
+
+sudo npm install grunt-cli -g
 
 bower install
 
